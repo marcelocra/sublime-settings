@@ -1,0 +1,11 @@
+{
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"LaTeXTools",
+		"MarkdownEditing",
+		"Package Control",
+		"SublimeREPL",
+		"VintageEx"
+	]
+}
