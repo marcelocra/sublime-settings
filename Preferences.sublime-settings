@@ -1,4 +1,5 @@
 {
+  "vintage_use_clipboard": true,
   "auto_complete": true,
   "auto_complete_commit_on_tab": true,
   "auto_complete_delay": 50,
