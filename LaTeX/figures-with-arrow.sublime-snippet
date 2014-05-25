@@ -2,9 +2,9 @@
     <content><![CDATA[
 \begin{figure}[H]
     \centering
-    \raisebox{-.5\height}{\includegraphics[width=5.3cm]{$1}}
-    \raisebox{-.5\height}{\scalebox{2}{\$\Rightarrow\$}}
-    \raisebox{-.5\height}{\includegraphics[width=5.3cm]{$2}}
+    \raisebox{-.5\height}{\includegraphics[width=0.4\linewidth]{$1}}
+    \raisebox{-.5\height}{\scalebox{1.5}{\$\Rightarrow\$}}
+    \raisebox{-.5\height}{\includegraphics[width=0.4\linewidth]{$2}}
     \caption{$3\label{fig:$4}}
 \end{figure}
 $0

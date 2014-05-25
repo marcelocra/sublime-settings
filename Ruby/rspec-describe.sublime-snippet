@@ -1,14 +1,13 @@
 <snippet>
     <content><![CDATA[
-\begin{figure}[H]
-    ${1:\centering
-    }\includegraphics[${2:width}=${3:0.95\linewidth}]{$4}
-    \caption{$5\label{fig:$6}}
-\end{figure}
-$0
+describe '#$1' do 
+    it '$2' do
+        $3.should == $4
+    end
+end
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>fig</tabTrigger>
+    <tabTrigger>des</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <!-- <scope>source.python</scope> -->
 </snippet>

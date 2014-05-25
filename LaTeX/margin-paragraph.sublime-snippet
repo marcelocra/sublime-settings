@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-\texttt{\small$1} $0
+\marginpar{${1:\tiny}\textcolor{${2:red}}{$3}}$0
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>tt</tabTrigger>
+    <tabTrigger>mp</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <!-- <scope>source.python</scope> -->
 </snippet>

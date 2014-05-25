@@ -33,7 +33,7 @@
 	"bold_folder_labels": false,
 	"caret_style": "smooth",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/iPlastic.tmTheme",
 	"copy_with_empty_selection": true,
 	"create_window_at_startup": true,
 	"default_encoding": "UTF-8",
@@ -47,7 +47,7 @@
 	"draw_white_space": "selection",
 	"enable_hexadecimal_encoding": true,
 	"ensure_newline_at_eof_on_save": true,
-	"fade_fold_buttons": true,
+	"fade_fold_buttons": false,
 	"fallback_encoding": "Western (Windows 1252)",
 	"file_exclude_patterns":
 	[
@@ -80,11 +80,11 @@
 		".hg",
 		"CVS"
 	],
-	"font_face": "Monaco",
+	"font_face": "DejaVu Sans Mono",
 	"font_options":
 	[
 	],
-	"font_size": 10,
+	"font_size": 11,
 	"gpu_window_buffer": "auto",
 	"gutter": true,
 	"highlight_line": true,
@@ -92,6 +92,10 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
+	],
+	"ignored_words":
+	[
+		"reusability"
 	],
 	"indent_guide_options":
 	[
