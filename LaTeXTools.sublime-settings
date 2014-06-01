@@ -125,6 +125,7 @@
 		},
 
 		"linux" : {
+			"command": ["latexmk", "-cd", "-e", "$pdflatex = '%E -interaction=nonstopmode -synctex=1 %S %O'", "-f", "-pdf"]
 			// See README or third-party documentation
 		}
 	},
