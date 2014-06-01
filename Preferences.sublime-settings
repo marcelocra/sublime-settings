@@ -80,9 +80,10 @@
 		".hg",
 		"CVS"
 	],
-	// "font_face": "DejaVu Sans Mono", "font_size": 20,
-	// "font_face": "Ubuntu Mono", "font_size": 20,
-	"font_face": "Inconsolata", "font_size": 20,
+	// "font_face": "DejaVu Sans Mono", "font_size": 13,
+	"font_face": "Consolas", "font_size": 16,
+	// "font_face": "Ubuntu Mono", "font_size": 17,
+	// "font_face": "Inconsolata", "font_size": 17,
 	"font_options":
 	[
 	],
@@ -118,7 +119,6 @@
 	"remember_open_files": true,
 	"rulers":
 	[
-		80
 	],
 	"save_on_focus_lost": false,
 	"scroll_past_end": true,
