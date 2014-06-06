@@ -81,7 +81,7 @@
         ".hg",
         "CVS"
     ],
-    "font_face": "Consolas", "font_size": 16,
+    "font_face": "Consolas", "font_size": 12,
     "font_options":
     [
     ],
@@ -140,6 +140,6 @@
     "vintage_start_in_command_mode": true,
     "vintage_use_clipboard": true,
     "word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
-    "word_wrap": false,
-    "wrap_width": 80
+    "word_wrap": "auto",
+    "wrap_width": 0
 }
