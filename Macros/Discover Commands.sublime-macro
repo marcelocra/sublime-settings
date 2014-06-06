@@ -1,0 +1,29 @@
+[
+	{
+		"args":
+		{
+			"characters": "f"
+		},
+		"command": "insert"
+	},
+	{
+		"args": null,
+		"command": "exit_insert_mode"
+	},
+	{
+		"args":
+		{
+			"by": "characters",
+			"forward": true,
+			"register": "\""
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"characters": "jsdfjasdf"
+		},
+		"command": "insert"
+	}
+]
