@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+from base_handler import BaseHandler
+
+
+class $1Handler(BaseHandler):
+    def get(self, $2):
+        $0
+        ]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>hand</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
