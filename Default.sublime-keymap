@@ -1,0 +1,59 @@
+[
+    // Macros
+
+    { 
+        "keys": ["alt+shift+k"], "command": "run_macro_file",
+        "args": 
+        {
+            "file": "Packages/User/Macros/Add Line Before.sublime-macro"
+        }
+    },
+
+    { 
+        "keys": ["alt+shift+j"], "command": "run_macro_file",
+        "args": 
+        {
+            "file": "Packages/User/Macros/Add Line.sublime-macro"
+        }
+    },
+
+    // Enhancements to default commands
+
+    {
+        "keys": ["alt+shift+h"], "command": "move_to",
+        "args":
+        {
+            "extend": false, "to": "bol"
+        }
+    },
+
+    {
+        "keys": ["alt+shift+l"], "command": "move_to",
+        "args":
+        {
+            "extend": false, "to": "eol"
+        }
+    },
+
+    { "keys": ["ctrl+d"], "command": "find_under_expand" },
+    
+    { "keys": ["ctrl+n"], "command": "find_under_expand" },
+
+    {
+        "keys": ["j", "j"], "command": "exit_insert_mode",
+        "context":
+        [
+            { "key": "setting.command_mode", "operand": false },
+            { "key": "setting.is_widget", "operand": false }
+        ]
+    },
+
+    { 
+        "keys": ["k", "k"], "command": "exit_insert_mode",
+        "context":
+        [
+            { "key": "setting.command_mode", "operand": false },
+            { "key": "setting.is_widget", "operand": false }
+        ]
+    }
+]
