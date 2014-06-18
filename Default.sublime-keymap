@@ -19,6 +19,10 @@
 
     // Enhancements to default commands
 
+    // { "keys": ["space"], "command": "vi_replay_macro",
+    //     "context": [{"key": "setting.command_mode"}]
+    // },
+
     {
         "keys": ["alt+shift+h"], "command": "move_to",
         "args":
