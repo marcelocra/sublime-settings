@@ -24,6 +24,14 @@
     // },
 
     {
+        "keys": ["f12"], "command": "reindent",
+        "args":
+        {
+            "single_line": false
+        }
+    },
+
+    {
         "keys": ["alt+shift+h"], "command": "move_to",
         "args":
         {
