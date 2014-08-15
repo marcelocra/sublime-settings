@@ -1,8 +1,12 @@
 {
+	"always_show_minimap_viewport": true,
+	"animation_enabled": false,
+	"atomic_save": true,
+	"auto_close_tags": true,
 	"auto_complete": true,
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_delay": 50,
-	"auto_complete_selector": "source - comment",
+	"auto_complete_selector": "source - comment, meta.tag - punctuation.definition.tag.begin",
 	"auto_complete_size_limit": 4194304,
 	"auto_complete_triggers":
 	[
@@ -30,10 +34,13 @@
 		"*.jar",
 		"*.zip"
 	],
-	"bold_folder_labels": true,
+	"bold_folder_labels": false,
+	"caret_extra_bottom": 0,
+	"caret_extra_top": 0,
+	"caret_extra_width": 0,
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
+	"color_scheme": "Packages/User/Monokai Bright (SL).tmTheme",
 	"copy_with_empty_selection": true,
 	"create_window_at_startup": true,
 	"default_encoding": "UTF-8",
@@ -43,9 +50,11 @@
 	"drag_text": true,
 	"draw_centered": false,
 	"draw_indent_guides": true,
-	"draw_minimap_border": false,
+	"draw_minimap_border": true,
 	"draw_white_space": "selection",
 	"enable_hexadecimal_encoding": true,
+	"enable_tab_scrolling": false,
+	"enable_telemetry": false,
 	"ensure_newline_at_eof_on_save": false,
 	"fade_fold_buttons": true,
 	"fallback_encoding": "Western (Windows 1252)",
@@ -80,12 +89,11 @@
 		".hg",
 		"CVS"
 	],
-	"font_face": "DejaVu Sans Mono",
+	"font_face": "Consolas",
 	"font_options":
 	[
-		"bold"
 	],
-	"font_size": 16,
+	"font_size": 18,
 	"gpu_window_buffer": "auto",
 	"gutter": true,
 	"highlight_line": true,
@@ -93,6 +101,7 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
+		"Markdown"
 	],
 	"ignored_words":
 	[
@@ -128,7 +137,9 @@
 	"scroll_past_end": true,
 	"scroll_speed": 1.0,
 	"shift_tab_unindent": true,
+	"show_encoding": true,
 	"show_full_path": true,
+	"show_line_endings": true,
 	"show_panel_on_build": true,
 	"show_tab_close_buttons": true,
 	"smart_indent": true,
@@ -143,7 +154,7 @@
 	"use_simple_full_screen": false,
 	"use_tab_stops": true,
 	"vintage_ctrl_keys": true,
-	"vintage_start_in_command_mode": true,
+	"vintage_start_in_command_mode": false,
 	"vintage_use_clipboard": true,
 	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
 	"word_wrap": "auto",

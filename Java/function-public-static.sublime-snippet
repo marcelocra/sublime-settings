@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+public static ${1:Return Type} ${2:Name} (${3:Parameters}) {
+    ${0:Body}
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>ps</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
