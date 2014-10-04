@@ -38,7 +38,7 @@
 	"caret_extra_bottom": 0,
 	"caret_extra_top": 0,
 	"caret_extra_width": 0,
-	"caret_style": "phase",
+	"caret_style": "smooth",
 	"close_windows_when_empty": false,
 	"color_scheme": "Packages/User/Monokai Bright (SL).tmTheme",
 	"copy_with_empty_selection": true,
@@ -89,11 +89,11 @@
 		".hg",
 		"CVS"
 	],
-	"font_face": "Consolas",
+	"font_face": "Source Code Pro",
 	"font_options":
 	[
 	],
-	"font_size": 18,
+	"font_size": 14,
 	"gpu_window_buffer": "auto",
 	"gutter": true,
 	"highlight_line": true,
@@ -131,7 +131,6 @@
 	"remember_open_files": true,
 	"rulers":
 	[
-		80
 	],
 	"save_on_focus_lost": false,
 	"scroll_past_end": true,
