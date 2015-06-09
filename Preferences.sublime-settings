@@ -40,7 +40,7 @@
 	"caret_extra_width": 0,
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/User/Monokai Bright (SL).tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"copy_with_empty_selection": true,
 	"create_window_at_startup": true,
 	"default_encoding": "UTF-8",
@@ -93,7 +93,7 @@
 	"font_options":
 	[
 	],
-	"font_size": 18,
+	"font_size": 10,
 	"gpu_window_buffer": "auto",
 	"gutter": true,
 	"highlight_line": true,
@@ -101,7 +101,10 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		"Markdown"
+		"Markdown",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"Vintage"
 	],
 	"ignored_words":
 	[
@@ -131,7 +134,6 @@
 	"remember_open_files": true,
 	"rulers":
 	[
-		80
 	],
 	"save_on_focus_lost": false,
 	"scroll_past_end": true,
