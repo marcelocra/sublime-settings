@@ -1,4 +1,5 @@
 Package Control.cache/*
 Package Control.*
+!Package Control.sublime-settings
 .SublimeREPLHistory/
 SublimeLinter/
