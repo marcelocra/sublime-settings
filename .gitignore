@@ -1,5 +1,10 @@
+# Ignore everything related to Package Control, except the
+# 'Package Control.sublime-settings' file, which contains a list of all
+# installed packages. This is useful for new Sublime installations.
 Package Control.cache/*
 Package Control.*
 !Package Control.sublime-settings
+
+# Ignore plugin folders.
 .SublimeREPLHistory/
 SublimeLinter/
