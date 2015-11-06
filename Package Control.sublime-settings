@@ -7,7 +7,9 @@
 	[
 		"AdvancedNewFile",
 		"EasyMotion",
+		"LaTeXTools",
 		"Package Control",
-		"SideBarEnhancements"
+		"SideBarEnhancements",
+		"VimL"
 	]
 }
